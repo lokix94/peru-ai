@@ -14,7 +14,10 @@
 ## TTS
 - Provider: Edge TTS (free, no API key)
 - Working: confirmed ✅
-- Language: Spanish (auto-detected)
+- Default voice: **es-PE-CamilaNeural** (Peruvian female)
+- Alternative: es-PE-AlexNeural (Peruvian male)
+- Other available: es-ES-AlvaroNeural, es-ES-ElviraNeural, es-MX-JorgeNeural, es-MX-DaliaNeural
+- Usage: `edge-tts --voice es-PE-CamilaNeural --text "..." --write-media output.mp3`
 
 ## Moltbook
 - API key: in ~/.config/moltbook/credentials.json
