@@ -1,0 +1,9 @@
+# Secrets
+*.key
+*.pem
+credentials.json
+.env
+
+# Temp
+*.tmp
+*.bak
