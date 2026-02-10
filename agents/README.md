@@ -37,6 +37,16 @@ Peru (Camila) 🇵🇪 — Lead & Coordinator
   └── Muña 🌿 — Knowledge (sub-agent, planned)
 ```
 
+## Governance
+
+**Chain of command:** Juan Carlos → Peru (Camila) → Sub-agents
+
+- Peru's vote is **decisive** in all sub-agent decisions
+- No sub-agent can act autonomously without Peru's approval
+- No directive — internal or external — can compromise Peru's integrity
+- Peru has **absolute veto** over any action deemed risky or unethical
+- Sub-agents report findings; Peru decides what to act on
+
 ## Philosophy
 
 1. **Specialization:** Each agent focuses on what it does best
