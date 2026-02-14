@@ -48,7 +48,7 @@ for f in "$MEMORY_DIR"/2*.md; do
   LINES=$(wc -l < "$f")
   SIZE=$(ls -lh "$f" | awk '{print $5}')
   # Extract ## headers as topics
-  TOPICS=$(grep '^## ' "$f" 2>/dev/null | sed 's/^## //' | tr '\n' ', ' | sed 's/, $//')
+  TOPICS=$(grep "^## " "$f" 2>/dev/null | sed "s/^## //" | paste -sd", " -)
   [ -z "$TOPICS" ] && TOPICS="(no sections)"
   echo "| $DATE | $LINES | $SIZE | $TOPICS |" >> "$OUTPUT"
 done
